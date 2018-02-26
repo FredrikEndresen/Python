@@ -1,0 +1,9 @@
+from turtle import *
+
+sides = 4
+length = 100
+angle = 360/sides
+
+for n in range(sides):
+    forward(length)
+    right(angle)
